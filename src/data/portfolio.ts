@@ -4,7 +4,8 @@ export const personalInfo = {
   subtitle: "Software Engineering & Backend Foundation",
   location: "Cairo, Egypt",
   email: "ahmghonem23@gmail.com",
-  phone: "+20 1X XXXX XXXX", // Replace with your actual phone/WhatsApp number
+  phone: "+201151476406",
+  whatsappUrl: "https://wa.me/201151476406",
   github: "https://github.com/Ghonem23",
   linkedin: "https://www.linkedin.com/in/ahmed-ghonem-277468361",
   image: "/profile.jpg",
@@ -50,7 +51,7 @@ export const services = [
 
 export const qaCaseStudies = [
   {
-    title: "E-Commerce MVP Comprehensive QA Test Plan & Defect Suite",
+    title: "E-Commerce MVP QA Test Plan & Defect Suite",
     category: "Functional & Exploratory QA",
     overview:
       "Designed and executed end-to-end test cases covering checkout flows, multi-item carts, coupon logic, and error boundaries for a web application.",
@@ -59,7 +60,7 @@ export const qaCaseStudies = [
       "Created structured bug logs with full reproduction steps and network payloads",
       "Documented regression test suites for rapid release verification",
     ],
-    artifacts: ["Test Case Matrix (Sheets)", "Defect Reports (Markdown)", "Traceability Matrix"],
+    artifacts: ["Test Case Matrix", "Defect Reports", "Traceability Matrix"],
   },
   {
     title: "RESTful API Integration & Contract Test Suite",
@@ -71,7 +72,7 @@ export const qaCaseStudies = [
       "Automated status code, schema, and latency assertions inside Postman",
       "Runner-ready integration scripts via Newman CLI",
     ],
-    artifacts: ["Exported Postman Collection (v2.1)", "Environment Files", "Test Run HTML Reports"],
+    artifacts: ["Postman Collection v2.1", "Environment Configs", "Newman HTML Reports"],
   },
 ];
 
@@ -80,7 +81,7 @@ export const devFoundations = [
     title: "Scalable REST Service Architecture",
     stack: "Java, Spring Boot, MySQL",
     description:
-      "Engineered layered backend systems adhering to clean architecture, modular services, and OOP principles. Gives me the ability to read code, inspect controllers, and isolate backend root causes during QA.",
+      "Engineered layered backend systems adhering to clean architecture, modular services, and OOP principles. Enables me to read application code, inspect controllers, and isolate backend root causes during QA.",
   },
   {
     title: "Python Data & Automation Scripts",
